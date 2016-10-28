@@ -1,22 +1,13 @@
-import static org.junit.Assert.*;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.WebElement;
-
 
 public class EncontrarElementos 
 {
 	private WebDriver driver;
-	@Before //Para acessar o nosso Blog antes da execuÁ„o de cada teste
+	@Before //Para acessar o nosso Blog antes da execu√ß√£o de cada teste
 	public void setUp()
 	{
 		driver = new FirefoxDriver();
 		driver.get("http://www.taketest.com.br/");
-		driver.manage().window().maximize(); //maximar p·gina
+		driver.manage().window().maximize(); //maximar p√°gina
 	}
 	
 	
