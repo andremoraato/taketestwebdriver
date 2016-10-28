@@ -1,3 +1,13 @@
+//Bibliotecas que são utilizadas e devem ser utilizadas
+import static org.junit.Assert.*;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.WebElement;
+
 
 public class EncontrarElementos 
 {
